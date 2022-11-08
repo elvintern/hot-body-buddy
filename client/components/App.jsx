@@ -21,6 +21,7 @@ const App = () => {
 
   return (
     <>
+      <img src="/images/hbb-logo.png" alt="Logo" />
       {count}
       <h1>{greeting}</h1>
       {isError && (
