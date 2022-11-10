@@ -1,13 +1,26 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import { fetchFruits } from '../apiClient'
 
-import Nav from './Nav'
+const App = () => {
+  const [fruits, setFruits] = useState([])
+  useEffect(() => {
+    fetchFruits()
+      .then((fruits) => {
+        setFruits(() => fruits)
+      })
+      .catch((err) => {
+        console.error(err)
+      })
+  }, [])
 
-function App() {
   return (
-    <>
-      <Nav />
-      <h1>hello</h1>
-    </>
+    <main className="bg-slate-700 h-screen flex justify-center items-center text-white text-4xl">
+      <ul>
+        {fruits.map((fruit) => (
+          <li key={fruit.id}>{fruit.name}</li>
+        ))}
+      </ul>
+    </main>
   )
 }
 
