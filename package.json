@@ -39,7 +39,9 @@
   },
   "dependencies": {
     "express": "^4.17.2",
-    "knex": "^2.3.0"
+    "knex": "^2.3.0",
+    "react-router-dom": "^6.4.3",
+    "sass": "^1.56.1"
   },
   "devDependencies": {
     "@babel/core": "^7.15.6",
