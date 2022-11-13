@@ -54,6 +54,7 @@ body {
 }
 
 .btn {
+  margin-top: 5rem;
   text-transform: capitalize;
   font-size: 5rem;
   padding: 3rem;
@@ -76,5 +77,9 @@ body {
   display: block;
   margin: 0 auto;
   width: 70%;
+  background-color: rgb(173, 222, 133);
+}
+
+.btn-next {
   background-color: rgb(173, 222, 133);
 }
