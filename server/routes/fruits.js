@@ -9,7 +9,8 @@ module.exports = router
 // GET /api/v1/fruits
 router.get('/home', async (req, res) => {
   try {
-    const fruits = await db.getFruits()
+    let randNum = Math.floor(Math.random() * 3) + 1
+    const fruits = await db.getFruits(randNum)
     res.json(fruits)
   } catch (error) {
     console.error(error)

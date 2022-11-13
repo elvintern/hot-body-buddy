@@ -5,6 +5,7 @@ import { fetchFruits } from '../../apiClient'
 
 export default function Home() {
   const [fruits, setFruits] = useState([])
+
   useEffect(() => {
     fetchFruits()
       .then((fruits) => {
@@ -17,13 +18,13 @@ export default function Home() {
 
   return (
     <>
-      <Quote />
-      <Login />
       <ul>
         {fruits.map((fruit) => (
           <li key={fruit.id}>{fruit.name}</li>
         ))}
       </ul>
+      <Quote />
+      <Login />
     </>
   )
 }

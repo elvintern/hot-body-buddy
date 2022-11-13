@@ -4,6 +4,6 @@ module.exports = {
   getFruits,
 }
 
-function getFruits(db = connection) {
-  return db('fruits').select()
+function getFruits(id, db = connection) {
+  return db('fruits').where('id', id).select()
 }
