@@ -9,15 +9,72 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
+  font: 1.6rem 'Lato', sans-serif;
+  color: #222;
+  background-color: rgb(241, 145, 123);
 }
 
 .nav {
-  background-color: rgba(255, 255, 117, 0.831);
+  background-color: rgba(255, 255, 117);
   display: flex;
   justify-content: center;
 }
 
 .nav__logo-img {
-  height: 9vh;
+  height: 11vh;
+}
+
+.main {
+  text-align: center;
+}
+
+.quote {
+  margin: 18rem 0;
+  font-size: 8rem;
+}
+
+.login-form {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+  font-size: 7rem;
+  gap: 3rem;
+  text-transform: capitalize;
+}
+
+.login-form__label {
+  text-align: left;
+}
+
+.login-form__input {
+  padding: 3rem 0 3rem 2rem;
+  font-size: 5rem;
+}
+
+.btn {
+  text-transform: capitalize;
+  font-size: 5rem;
+  padding: 3rem;
+  border: none;
+  transition: 0.2s linear;
+  text-decoration: none;
+  color: #222;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.btn-login {
+  margin: 7rem 0 2rem;
+  background-color: beige;
+}
+
+.btn-signup {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  background-color: rgb(173, 222, 133);
 }

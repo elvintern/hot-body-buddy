@@ -1,11 +1,11 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import Login from './Login'
 
 export default function Home() {
   return (
     <>
-      <h2>home page</h2>
-      <Link to={'/login'}>Login</Link>
+      <p className="quote">No Pain No Gain</p>
+      <Login />
     </>
   )
 }
