@@ -7,7 +7,7 @@ const router = express.Router()
 module.exports = router
 
 // GET /api/v1/fruits
-router.get('/', async (req, res) => {
+router.get('/home', async (req, res) => {
   try {
     const fruits = await db.getFruits()
     res.json(fruits)
