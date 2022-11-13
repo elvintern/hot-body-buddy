@@ -1,10 +1,11 @@
 import React from 'react'
-import Login from './Login'
+import Login from '../items/Login'
+import Quote from '../items/Quote'
 
 export default function Home() {
   return (
     <>
-      <p className="quote">No Pain No Gain</p>
+      <Quote />
       <Login />
     </>
   )
