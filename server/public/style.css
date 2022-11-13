@@ -83,3 +83,15 @@ body {
 .btn-next {
   background-color: rgb(173, 222, 133);
 }
+
+.profile {
+  width: 80%;
+  margin: 0 auto;
+  background-color: aliceblue;
+  text-transform: capitalize;
+  font-size: 5rem;
+}
+
+.welcome-msg {
+  font-size: 5rem;
+}
