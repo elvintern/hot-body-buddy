@@ -4,6 +4,7 @@ import Nav from './Nav'
 import Home from './pages/Home'
 import SignUp from './pages/SignUp'
 import Goal from './pages/Goal'
+import Routine from './pages/Routine'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/signup/goal" element={<Goal />} />
+          <Route path="/signup/goal/routine" element={<Routine />} />
         </Routes>
       </main>
     </Router>

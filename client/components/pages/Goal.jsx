@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Quote from '../items/Quote'
 
 export default function Goal() {
@@ -13,12 +14,13 @@ export default function Goal() {
           type="textarea"
           maxLength={30}
           name="userGoal"
-          id="userGoal"
           className="form__input"
           required
         />
 
-        <button className="btn btn-next">next</button>
+        <Link to="routine" className="btn btn-next">
+          next
+        </Link>
       </form>
     </>
   )

@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <>
       <div className="nav">
-        <Link to="/Home" className="nav__logo-link">
+        <Link to="/" className="nav__logo-link">
           <img
             src="/images/hbb-logo.png"
             alt="hbb logo"

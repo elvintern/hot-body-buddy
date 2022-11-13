@@ -27,10 +27,10 @@ export default function Login() {
           required
         />
         <button className="btn btn-login">login</button>
+        <Link to="signup" className="btn btn-signup">
+          sign up
+        </Link>
       </form>
-      <Link to="signup" className="btn btn-signup">
-        sign up
-      </Link>
     </>
   )
 }

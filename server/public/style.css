@@ -75,8 +75,8 @@ body {
 
 .btn-signup {
   display: block;
+  width: 100%;
   margin: 0 auto;
-  width: 70%;
   background-color: rgb(173, 222, 133);
 }
 

@@ -10,40 +10,21 @@ export default function SignUp() {
         <label htmlFor="firstName" className="form__label">
           first name
         </label>
-        <input
-          type="text"
-          name="firstName"
-          id="firstName"
-          className="form__input"
-          required
-        />
+        <input type="text" name="firstName" className="form__input" required />
         <label htmlFor="lastName" className="form__label">
           last name
         </label>
-        <input
-          type="text"
-          name="lastName"
-          id="lastName"
-          className="form__input"
-          required
-        />
+        <input type="text" name="lastName" className="form__input" required />
         <label htmlFor="userEmail" className="form__label">
           email
         </label>
-        <input
-          type="email"
-          name="userEmail"
-          id="userEmail"
-          className="form__input"
-          required
-        />
+        <input type="email" name="userEmail" className="form__input" required />
         <label htmlFor="password" className="form__label">
           password
         </label>
         <input
           type="password"
           name="password"
-          id="password"
           className="form__input"
           required
         />
