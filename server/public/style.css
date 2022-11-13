@@ -33,7 +33,7 @@ body {
   font-size: 8rem;
 }
 
-.login-form {
+.form {
   width: 70%;
   margin: 0 auto;
   display: flex;
@@ -44,11 +44,11 @@ body {
   text-transform: capitalize;
 }
 
-.login-form__label {
+.form__label {
   text-align: left;
 }
 
-.login-form__input {
+.form__input {
   padding: 3rem 0 3rem 2rem;
   font-size: 5rem;
 }

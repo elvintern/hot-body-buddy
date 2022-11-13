@@ -4,25 +4,27 @@ import { Link } from 'react-router-dom'
 export default function Login() {
   return (
     <>
-      <form className="login-form">
-        <label htmlFor="userName" className="login-form__label">
-          user name
+      <form className="form form-login">
+        <label htmlFor="userEmail" className="form__label">
+          user email
         </label>
         <input
-          type="text"
-          name="userName"
-          id="userName"
-          className="login-form__input"
+          type="email"
+          name="userEmail"
+          id="userEmail"
+          className="form__input"
+          required
         />
 
-        <label htmlFor="password" className="login-form__label">
+        <label htmlFor="password" className="form__label">
           password
         </label>
         <input
           type="password"
           name="password"
           id="password"
-          className="login-form__input"
+          className="form__input"
+          required
         />
         <button className="btn btn-login">login</button>
       </form>
