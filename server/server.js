@@ -8,6 +8,6 @@ const server = express()
 // MIDDLEWARE
 server.use(express.json())
 server.use(express.static(path.join(__dirname, './public')))
-server.use('/', fruitsRouter)
+server.use('/api/v1/fruits', fruitsRouter)
 
 module.exports = server

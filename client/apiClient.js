@@ -1,5 +1,5 @@
 import request from 'superagent'
 
 export function fetchFruits() {
-  return request.get('/home').then((res) => res.body)
+  return request.get('/api/v1/fruits').then((res) => res.body)
 }
