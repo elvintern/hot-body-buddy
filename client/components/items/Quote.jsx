@@ -16,10 +16,11 @@ export default function Quote() {
     <>
       <ul>
         {fruits.map((fruit) => (
-          <li key={fruit.id}>{fruit.name}</li>
+          <li className="quote" key={fruit.id}>
+            {fruit.name}
+          </li>
         ))}
       </ul>
-      <p className="quote">No Pain No Gain</p>
     </>
   )
 }

@@ -5,5 +5,7 @@ module.exports = {
 }
 
 function getFruits(db = connection) {
-  return db('fruits').select()
+  const randomNumber = Math.floor(Math.random() * 3) + 1
+  console.log(randomNumber)
+  return db('fruits').where('id', randomNumber).select()
 }
