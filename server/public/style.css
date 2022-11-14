@@ -26,15 +26,18 @@ body {
 
 .main {
   text-align: center;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .quote {
+  list-style: none;
+  text-transform: capitalize;
   margin: 18rem 0;
   font-size: 8rem;
 }
 
 .form {
-  width: 70%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;

@@ -1,11 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Quote from '../items/Quote'
 
 export default function SignUp() {
   return (
     <>
-      <Quote />
       <form className="form form-signup">
         <label htmlFor="firstName" className="form__label">
           first name

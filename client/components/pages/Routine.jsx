@@ -1,11 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Quote from '../items/Quote'
 
 export default function Routine() {
   return (
     <>
-      <Quote />
       <form className="form form-Routine">
         <label htmlFor="userRoutine" className="form__label">
           add your exercise
