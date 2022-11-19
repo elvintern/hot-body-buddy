@@ -56,6 +56,26 @@ body {
   font-size: 5rem;
 }
 
+.form__pronounce {
+  display: flex;
+  flex-direction: column;
+  font-size: 6rem;
+}
+
+.pronounce-container {
+  text-align: left;
+}
+
+.form-pronounce .form__label {
+  font-size: 5rem;
+}
+
+.form__input[type='radio'] {
+  width: 5rem;
+  height: 5rem;
+  margin-left: 5rem;
+}
+
 .btn {
   margin-top: 5rem;
   text-transform: capitalize;
@@ -87,14 +107,63 @@ body {
   background-color: rgb(173, 222, 133);
 }
 
+.btn-start {
+  display: block;
+  width: 100%;
+  margin: 10rem auto 0;
+  background-color: beige;
+}
+
 .profile {
-  width: 80%;
   margin: 0 auto;
-  background-color: aliceblue;
   text-transform: capitalize;
   font-size: 5rem;
+  margin-bottom: 3rem;
+}
+
+.profile p {
+  margin-bottom: 5rem;
 }
 
 .welcome-msg {
-  font-size: 5rem;
+  font-size: 7rem;
+}
+
+.routine {
+  margin-top: 10rem;
+  font-size: 6rem;
+}
+
+.exercise {
+  display: flex;
+}
+
+.exercise__input {
+  flex: 1 1 90%;
+  font-size: 6rem;
+  padding: 3rem;
+  text-transform: capitalize;
+}
+
+.exercise__input option {
+  font-size: 2rem;
+}
+
+.sets {
+  width: 20rem;
+  font-size: 6rem;
+  padding: 3rem;
+}
+
+.set {
+  display: flex;
+  font-size: 7rem;
+  margin-top: 10rem;
+}
+
+.reps,
+.kgs {
+  width: 15rem;
+  font-size: 7rem;
+  margin-left: 5rem;
 }

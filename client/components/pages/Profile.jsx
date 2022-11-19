@@ -1,21 +1,20 @@
 import React from 'react'
 import Quote from '../items/Quote'
+import { Link } from 'react-router-dom'
 
 export default function Profile() {
   return (
     <>
       <Quote />
       <div className="profile">
-        <div className="welcome-msg">
-          <p>welcome jinwoo park</p>
-          <p className="report">
-            you have been to the gym 7 times <br />
-            since the date
-          </p>
-        </div>
+        <p className="welcome-msg">welcome jinwoo park</p>
+        <p className="report-date">since 15/11/2022</p>
+        <p className="report-times">you have been to the gym 7 times</p>
         <p className="user-goal">your goal: hit 100kgs</p>
       </div>
-      <button className="btn btn-start">start</button>
+      <Link className="btn btn-start" to="/exercise">
+        start work out!
+      </Link>
     </>
   )
 }

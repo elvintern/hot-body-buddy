@@ -6,6 +6,7 @@ import SignUp from './pages/SignUp'
 import Goal from './pages/Goal'
 import Routine from './pages/Routine'
 import Profile from './pages/Profile'
+import Exercise from './pages/Exercise'
 
 const App = () => {
   return (
@@ -13,11 +14,12 @@ const App = () => {
       <Nav />
       <main className="main">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="/signup" element={<SignUp />} />
-          <Route path="/signup/goal" element={<Goal />} />
-          <Route path="/signup/goal/routine" element={<Routine />} />
+          <Route path="/goal" element={<Goal />} />
+          <Route path="/routine" element={<Routine />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/exercise" element={<Exercise />} />
         </Routes>
       </main>
     </Router>

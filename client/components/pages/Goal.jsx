@@ -18,7 +18,7 @@ export default function Goal() {
           required
         />
 
-        <Link to="routine" className="btn btn-next">
+        <Link to="/routine" className="btn btn-next">
           next
         </Link>
       </form>
