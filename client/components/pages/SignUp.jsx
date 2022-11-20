@@ -29,7 +29,7 @@ export default function SignUp() {
             </label>
             <input
               type="radio"
-              name="he"
+              name="pronounce"
               className="form__input"
               value="he/him"
             />
@@ -40,7 +40,7 @@ export default function SignUp() {
             </label>
             <input
               type="radio"
-              name="she"
+              name="pronounce"
               className="form__input"
               value="she/her"
             />
@@ -51,7 +51,7 @@ export default function SignUp() {
             </label>
             <input
               type="radio"
-              name="they"
+              name="pronounce"
               className="form__input"
               value="they/them"
             />

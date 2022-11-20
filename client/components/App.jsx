@@ -7,6 +7,7 @@ import Goal from './pages/Goal'
 import Routine from './pages/Routine'
 import Profile from './pages/Profile'
 import Exercise from './pages/Exercise'
+import Report from './pages/Report'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/routine" element={<Routine />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/exercise" element={<Exercise />} />
+          <Route path="/report" element={<Report />} />
         </Routes>
       </main>
     </Router>
